@@ -1,0 +1,2764 @@
+{
+  "id": "2b481da1-a8de-481c-9a0c-cb1d3e97fe21",
+  "version": "2.0",
+  "name": "Examen_Final",
+  "url": "http://demo.vetagile.com/login",
+  "tests": [{
+    "id": "204aee56-6c2e-4dcf-be15-d620d57a1249",
+    "name": "InicarSesion",
+    "commands": [{
+      "id": "ba8d75a4-68f6-4f6c-a742-3e1cff0b1576",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97a89d04-69d3-46b7-af06-48946dc34b04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d7ef519-77b9-4aee-90c0-f17389193308",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c94f97-4b6b-4a8f-8a41-c599318d0e8f",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "23eac416-b3af-42f7-9e48-836a331db7da",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "6ba8ac9d-a92b-4b08-a43c-606f9c429fba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a59391aa-6796-4ad5-af3e-3c0365dfa0f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6287dfe7-92c3-4db6-9d7e-3d714aaf0431",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-title",
+      "targets": [
+        ["css=.main-title", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "424b58b8-43b0-43b7-be5c-77e313a8395d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b263d2fc-e179-459c-9e68-8c08e2f5610b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-7 .ibox-content",
+      "targets": [
+        ["css=.col-lg-7 .ibox-content", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f091aa9-31ac-442b-a4df-f2e7a019930e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a65537-dc80-4296-a379-4001f8900154",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.main-title",
+      "targets": [
+        ["css=.main-title", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": "Dashboard"
+    }, {
+      "id": "dda5a2e6-9eae-4f28-bd9e-873d94f8cbc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9839289b-04c3-4434-ada8-5c478c6b4b57",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f9798af5-059d-4a8c-b499-e545d03c664c",
+    "name": "CrearEspecie",
+    "commands": [{
+      "id": "d5cab473-d63d-484a-9465-1d9a43de1757",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07ddee32-0ee7-4b37-a039-095e6df39581",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af0bee8-de91-4709-9011-0230c091c341",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3704ab56-429b-44cd-bcf1-c51146e0624c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "3397460e-4a7e-473c-9f19-0de3e403e783",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "dc888140-28b0-4045-b7b5-a995a7c090af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b3ce9e-895e-4714-80c7-93a91a069cbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc08c241-208e-4425-b1fb-cc980fb2fe61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87b157f2-9220-4784-8c2a-4803f73f5ad7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Especie",
+      "targets": [
+        ["linkText=Crear Especie", "linkText"],
+        ["css=.ibox-content > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Crear Especie')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/a", "xpath:idRelative"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crear Especie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2c5921-5eff-468a-b942-511ce10ceea9",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Canes"
+    }, {
+      "id": "14fb6a29-467f-41e6-8bf6-ea181d0ad0d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6572a156-be2b-42f9-86cb-3aee3af88cca",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "mamifero/carnivoro"
+    }, {
+      "id": "2d24dc5e-784a-449c-9018-40d34f6efa4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34fb02fc-6015-4448-a067-8ba7bc8c9d89",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Especies')]", "xpath:innerText"]
+      ],
+      "value": "Especies"
+    }, {
+      "id": "1f34a187-2c10-4aeb-8166-f581e85eb3a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7ea812-872a-4dd0-9c07-88fa491c602f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f3ecef-bdfb-4b7d-a965-d14fd48cf9af",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1b7b2e84-f512-4796-b75e-c36c717f66f3",
+    "name": "EditarEspecie",
+    "commands": [{
+      "id": "8a34f69e-07f8-4c7e-b41f-30e0948202c7",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07932cbe-17b4-4a37-9f3a-e4b7406e9faf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b44c8b7-c35b-4431-84c9-5c749b4030b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8c8caf-0bdc-4337-a93a-6f45f436191b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "30bfa660-3bd1-42b6-bccc-4a20cd873120",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "d7015f53-5b68-425f-a0ce-4d73a4a5987c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d7b3379-8e54-4864-802f-9f0e7bf109e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab8724f3-9a7e-44e8-9c27-87efb2b160c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "210864ac-c857-4a63-ae1e-64383681780f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) .btn:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Editar')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[2]/td[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f98549a-bff7-438f-91ef-d3fc844a9f34",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f05b16e5-b29e-4d28-8871-2c881013fe2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "mamifero/carnivoro/omnivoro"
+    }, {
+      "id": "eb3f747e-8a6a-4a13-b4b7-66029ab9445e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f2670d-2c72-45af-aeb4-c042054fdf5a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) strong",
+      "targets": [
+        ["css=tr:nth-child(2) strong", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[2]/td[2]/a/strong", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Canes')]", "xpath:innerText"]
+      ],
+      "value": "Canes"
+    }, {
+      "id": "75b6e17d-8c9e-4772-9654-fb0cc929568f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a6b382-6793-4ec3-84a4-35d2ca1453dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aad564e9-b48e-4c6b-9c6c-c3eec124bac7",
+    "name": "EliminarEspecie ",
+    "commands": [{
+      "id": "04baac47-7590-4834-87e4-89a459d70cbc",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e002d08-8784-40f0-97a3-802b6ae33339",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93e9a403-b60d-4a88-813b-767e2364d178",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b03ddfa5-19f9-4a87-baf6-acfa0a543793",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "97c039a1-6e08-451b-81a7-e99969549660",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "f0d4358e-1730-4181-8b95-4326d01d0ec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3753a5a4-460d-4e84-84a0-46c59197decc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e54e08cf-f963-4182-95c4-910c9c1b1e8f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d08c9389-586f-4aed-9732-0ceeb27464a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .fa",
+      "targets": [
+        ["css=tr:nth-child(2) .fa", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[2]/td[3]/a[3]/i", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[3]/a[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ee1431-51cd-4842-93c7-dd5296846e71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-white",
+      "targets": [
+        ["css=.modal-footer > .btn-white", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32bf04d1-5b5b-45db-b6c9-00525e574605",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Especies')]", "xpath:innerText"]
+      ],
+      "value": "Especies"
+    }, {
+      "id": "8df87906-fb9d-4c94-84f8-4ffc064b8ac2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df7c712-7bed-4830-8141-95d3be85276e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "294efdaf-4069-4236-b5af-323ecfd34fc7",
+    "name": "CrearRaza",
+    "commands": [{
+      "id": "6a18e28c-9686-4e3f-8105-af11a540478d",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1379fddd-3292-4f33-a602-090863463ff6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03022822-4fbc-4633-bc57-879f4bdd1581",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcb5090e-9b0f-4957-b27f-c5790d2951ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "356ec216-370e-468a-ab7f-55fc364ed3f7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "b233a5a5-feb9-4e9c-bea9-6acd31cbadb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9b3694-6f25-4e5c-ad56-d6b0b57d446e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b96622-9d41-4229-bb23-a8297212dcf7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa15304e-24e6-40d1-a6d7-ae1793626830",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Razas",
+      "targets": [
+        ["linkText=Razas", "linkText"],
+        ["css=.nav:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Razas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/breeds']", "xpath:href"],
+        ["xpath=//nav/div/ul/li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Razas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bba2132c-b9ca-4527-a154-02b07fabc9a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nueva Raza",
+      "targets": [
+        ["linkText=Nueva Raza", "linkText"],
+        ["css=.pull-right", "css:finder"],
+        ["xpath=//a[contains(text(),'Nueva Raza')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/a", "xpath:idRelative"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nueva Raza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdadbed7-75de-464c-b87f-20e9d093d3a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-btn > .btn",
+      "targets": [
+        ["css=.input-group-btn > .btn", "css:finder"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e220fdb-06d2-4340-a863-c4b5bb11cbe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-2",
+      "targets": [
+        ["id=ui-id-2", "id"],
+        ["css=#ui-id-2", "css:finder"],
+        ["xpath=//div[@id='ui-id-2']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6018b2c8-c218-4f69-8988-c68da606b105",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "482c21d1-0c06-4ec5-aabe-e19fca4e18a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "animal"
+    }, {
+      "id": "31b767af-d815-4f0d-8cd1-21b2404854a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80dc141-9188-4adb-bb8c-1bad4b19cf91",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "cualquier tipo"
+    }, {
+      "id": "f0244442-2e09-47f7-88f6-264a143839d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "124137cf-9d28-4019-92e1-df586622866d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(5) strong",
+      "targets": [
+        ["css=tr:nth-child(5) strong", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[5]/td[2]/a/strong", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'animal')]", "xpath:innerText"]
+      ],
+      "value": "animal"
+    }, {
+      "id": "8dac58ca-124b-4a4a-b081-e750a39a92cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abd67f12-e2d1-40f3-93b4-b4eeadd8cb0e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "305fa893-a895-480d-b496-6ae64c3c2328",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f8ee7226-f17f-45b9-a7e4-bf107b643fbe",
+    "name": "EliminarRaza",
+    "commands": [{
+      "id": "cd3d5fea-e42a-4e45-b2eb-6b1512d2c064",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21c3c56d-d7fa-4e31-ab28-b8c294903bf9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2b531b-af6c-4e1e-b036-929bdc53eea6",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9982d6b7-ddbd-4575-8873-450736526ad4",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "50a24dcf-0db7-4b56-8a52-d04e2aa8894e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "0bdff52d-1f50-4186-9fa1-c04fd19fe456",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36b597b0-15fd-4678-a492-3b9a4ee90b26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a3a6594-f8e1-4f3f-a6b9-95860568a571",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eaee657-5e0c-43e3-b253-566647e03130",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Razas",
+      "targets": [
+        ["linkText=Razas", "linkText"],
+        ["css=.nav:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Razas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/breeds']", "xpath:href"],
+        ["xpath=//nav/div/ul/li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Razas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d68a90-7d8b-4df9-bd82-802dc7027ae8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) .btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[2]/td[4]/a[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de69f88-50ea-4745-90bd-dca028bd5c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-white",
+      "targets": [
+        ["css=.modal-footer > .btn-white", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c6cfac-5ca7-44f5-91fe-14c9171db914",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Razas')]", "xpath:innerText"]
+      ],
+      "value": "Razas"
+    }, {
+      "id": "0e3ed1b3-0784-428d-8cfd-b1f944e1b0a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f79cdd-511c-4e81-bd90-325530ff2b1b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ec78cf6-3501-4e71-9f73-e6524b00d394",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7463b6dd-0eab-44b2-8c1e-a841f37605b7",
+    "name": "EditarRaza",
+    "commands": [{
+      "id": "ee758706-05a3-42e4-ab27-c35d524c3968",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a1cc06e-1b94-4586-9b35-d49015141caf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9095386a-c080-412e-88a5-c20bf785dd01",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f131ea-3881-4f8f-b2f5-3333136b18ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "c9003224-1739-40b4-808f-cc43d62872bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "583f17b6-0a0c-49b4-a944-9a3f46094c6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "441a2880-3579-443d-85dd-319c84de64f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372cbeb4-f924-4cc5-889e-b2653b5c3ad8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94288d12-bc63-4b18-87c3-2323c825b905",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Razas",
+      "targets": [
+        ["linkText=Razas", "linkText"],
+        ["css=.nav:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Razas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/breeds']", "xpath:href"],
+        ["xpath=//nav/div/ul/li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Razas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b8986f5-dcdc-40e2-b005-00584b62497f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .btn:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(3) .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Editar')])[3]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[3]/td[4]/a", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc543c5-3948-4c8d-b2c5-cedc2a290071",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26fd5f83-80bb-44de-8c27-d0af86fa1970",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Perro de pelea"
+    }, {
+      "id": "a4362d08-b3c9-4fa7-8845-dd6f80d22dae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6371947d-510f-4945-a5cd-2f1af741d4f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) small",
+      "targets": [
+        ["css=tr:nth-child(3) small", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr[3]/td[2]/p/small", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/small", "xpath:position"],
+        ["xpath=//small[contains(.,'Perro de pelea')]", "xpath:innerText"]
+      ],
+      "value": "Perro de pelea"
+    }]
+  }, {
+    "id": "3340804b-7ad1-4d01-8c9a-8954aab28886",
+    "name": "Vacuna",
+    "commands": [{
+      "id": "3b5b9eaf-4779-4680-a028-e6a1a541f1ee",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f74ae67f-2e8b-4648-b7fc-3cb59c463d2e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e6fbf75-7dd6-4e25-a961-be9d0f015498",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83598705-ab8d-432f-a888-b95be31a7128",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d71cfaf-cfa7-41c8-8886-cc78ae2f7958",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b7a27e-f34d-4c61-a3cd-599c4592e9e0",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "b5cf0c8e-b58e-4c70-b83c-6e737205d2fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "6bc1fa5e-4ac8-4cc5-86cb-709a24a0dfeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0bcdec6-0a6e-4418-a381-5a6234fec985",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fc1139-6bb7-4965-9eb0-fb177e489f3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d133f0d-39ce-4d7f-89e0-c11a3ef8825f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vacunas",
+      "targets": [
+        ["linkText=Vacunas", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vacunas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/vaccines']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "502586a0-17e2-41f8-ab0d-8c6d7fc8c489",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nueva Vacuna",
+      "targets": [
+        ["linkText=Nueva Vacuna", "linkText"],
+        ["css=.ibox-content > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Nueva Vacuna')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/a", "xpath:idRelative"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nueva Vacuna')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29f278c-3aca-4bcd-b47a-a173d066d8d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0bb4514-05b8-439f-8900-a645cdc58e04",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "antipulgas"
+    }, {
+      "id": "941e56c9-e1e4-4cfa-8d9a-4e23e82dfb33",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ac93ab2-2f9e-481b-97ce-003013ad75f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "fb1b962f-e928-4356-bafd-d8843ebab891",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3f87f33-625a-48d0-bb01-2d1e7cd5bddd",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9264a0f-aec5-4b8a-bce5-916a8b6766cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "para perros"
+    }, {
+      "id": "151c873d-c715-439f-ab96-eb4629d6a154",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e16a7749-0ee0-4988-8de0-9b6720334b04",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": "Vacunas"
+    }, {
+      "id": "2d39a945-817d-4a47-b6e0-b10630bd9992",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a277a2e-3398-4aa0-aa5f-b85e6f15b8b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f347df7-18eb-4655-bfe0-6101f0ebc3d4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d269221c-5ec6-43d7-b44d-d33d01a2567c",
+    "name": "EditarVacuna",
+    "commands": [{
+      "id": "43c790d5-e468-46ed-8532-1586eac8bad2",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e246b62-0b5f-4190-b8b3-b29140da29a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a24a4b2-7513-430a-bf4d-c1a7e5fd11ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "948f0270-3d7f-47e9-8dc8-6a74a6285a66",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded6a71b-71fb-476b-a58a-c9583ba567cb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced26c58-f991-47aa-8664-b1e754d6647b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "91e68e3d-879a-4066-922c-894a080c8c7e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "03d1afb9-30f5-4f0b-80d9-0a5769999a3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cec72b3-d812-45db-ae09-f45a976ca51d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf63b44-fca9-4e89-a26d-fff061f19037",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9998df48-b09e-4de9-8b8f-7e1bd15e35c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vacunas",
+      "targets": [
+        ["linkText=Vacunas", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vacunas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/vaccines']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94660e30-43d5-4ee8-ae03-0f760c900c34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editar",
+      "targets": [
+        ["linkText=Editar", "linkText"],
+        ["css=tr:nth-child(1) .btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Editar')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81fcdc05-9d9a-4d8c-a10c-2481bc01cbb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5a6e70-d9d3-49c8-8d5a-44eb9493a12d",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "para perros y gatos"
+    }, {
+      "id": "3ff5bbec-d5bd-402b-b28c-8d45a091b010",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1f35441-3016-4b75-bebd-3828be7851bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e765c6f3-68de-4359-a4c7-87ba8c032280",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "9440ddbf-7557-4054-a7d8-cc2dcdff0a12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb1622f-88e9-4836-8aec-e36abd7656e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": "Vacunas"
+    }, {
+      "id": "508fd54a-86e9-471d-aa0d-2973e426aaa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d4af8c9-736a-4258-ba8b-fe9c2986d771",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f42e84c8-5381-4ae5-b793-66b58ae2012c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "33abc7a2-f054-4aa9-9112-54e04778fca4",
+    "name": "EliminarVacuna",
+    "commands": [{
+      "id": "945a8903-a164-4f48-ac70-4abe9f0a3661",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b668820-d834-4838-a623-2afb5d680463",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c345418-ef8c-4821-9b1d-0a6823deae34",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c79a6269-28b1-427e-aa90-177a4fe380c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e985717-ae0c-43cf-94f7-37f6758d7d3d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78d698fa-a38e-460c-8ff8-4e329528b5eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "70cee632-b986-44d9-afa5-1457b3a5e2d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "907bc1a4-af9d-4d5b-b603-23b30455fc41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e77df0c-f2fc-4d8f-8d6f-67335ca7c5eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2ddaf5-c742-4823-9f52-9f552c6c0fc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e0a4cd-f3bb-4237-a5ec-0b300881d9b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vacunas",
+      "targets": [
+        ["linkText=Vacunas", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vacunas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/vaccines']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "327decf1-5c9d-4dae-8433-2e0d5a5f6965",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .btn:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) .btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr/td[4]/a[2]", "xpath:idRelative"],
+        ["xpath=//td[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62e8b9bd-19ef-449c-9d9c-613cb1a6b520",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-white",
+      "targets": [
+        ["css=.modal-footer > .btn-white", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b93e7b-a659-4596-890c-6af0c3ab795a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": "Vacunas"
+    }, {
+      "id": "f3b2b160-7d22-4075-9c07-a6210be247fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8969527-adee-478c-955a-ecdc18a8f60e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0c1e95e-6cdc-4f85-af45-ab27366867f7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e2d95340-040e-479f-ae4d-725dbc6bdfe4",
+    "name": "antiparasitosyantipulgas",
+    "commands": [{
+      "id": "499356d9-4d6b-4169-add1-96268dfc8a76",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c846a05-4580-4d31-a089-8421ad0916cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b38cbed-739c-40be-a426-29691f70bf50",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9d1a6b-c1fc-43ed-ab00-78222939c93f",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "aa131317-57b9-4029-81fa-5f678961399a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "4b45d504-34d8-4c0a-a220-a507b72e47ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ec8dac3-9e12-42e2-881d-5788942087ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c65c860d-85f6-4ae1-9e7c-c34c5eb0f860",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd99c6cc-7132-4c96-9a2e-e842fcf6dd41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Antiparasitarios y Antipulgas",
+      "targets": [
+        ["linkText=Antiparasitarios y Antipulgas", "linkText"],
+        ["css=.nav-second-level > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Antiparasitarios y Antipulgas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/medicines']", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Antiparasitarios y Antipulgas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f4d6db5-d099-4be6-9975-362162647288",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nuevo Medicamento",
+      "targets": [
+        ["linkText=Nuevo Medicamento", "linkText"],
+        ["css=.pull-right", "css:finder"],
+        ["xpath=//a[contains(text(),'Nuevo Medicamento')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/a", "xpath:idRelative"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nuevo Medicamento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f616b0f2-e21d-4c39-b6f3-a041fcd91dd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.name",
+      "targets": [
+        ["id=form.name", "id"],
+        ["name=form.name", "name"],
+        ["css=#form\\.name", "css:finder"],
+        ["xpath=//input[@id='form.name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bravecto"
+    }, {
+      "id": "1c21c80c-8306-4bff-a921-422e22d510fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae8b9bcc-b8ca-43a0-a1d8-5cf9d8f5e28e",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "052a4ff7-dad4-43ab-b5ff-4f1afc8355fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e366c3c3-0bd0-4d9c-9792-2364692194d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "antipulga"
+    }, {
+      "id": "5757daff-c987-46ab-baaa-be7e623a5513",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e2c0188-727a-4354-8b95-507a67efe16b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Medicamentos')]", "xpath:innerText"]
+      ],
+      "value": "Medicamentos"
+    }, {
+      "id": "e5b17ce1-5494-46c6-800b-1fadba54283d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f14fee-e6e7-44a7-95ac-4c4a2547fbc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e54aab85-b4cc-4958-a49e-220658b626ce",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9548a458-84bd-428e-ae28-81ff161487a5",
+    "name": "Editar_antiparasitosyantipulgas",
+    "commands": [{
+      "id": "31e373b8-8907-4476-a15a-ec5c518a1181",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf0db3e9-4dc4-4d56-b942-376700c41246",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc135e3d-d352-4e9f-b0f5-4a4345208e7a",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bb750d8-d94d-4794-ab41-96ea91af9ba0",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "577b0208-583e-4520-9941-fdd2d71d74e2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "2016a9ba-2ec5-45ba-8fc2-e82e2aa350f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9239785b-606b-4825-86f3-e41768a1b852",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ac8fbf-9d0b-484a-8443-bb82e393ad9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce9d3ec-7055-4f86-abf2-a908d925b4ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vacunas",
+      "targets": [
+        ["linkText=Vacunas", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vacunas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/vaccines']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vacunas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc0ee24-facb-4926-a29d-80742ffe9e79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Antiparasitarios y Antipulgas",
+      "targets": [
+        ["linkText=Antiparasitarios y Antipulgas", "linkText"],
+        ["css=.nav-second-level > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Antiparasitarios y Antipulgas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/medicines']", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Antiparasitarios y Antipulgas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b2bdbc-e57d-442a-b6a5-b15d34dc2ca9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editar",
+      "targets": [
+        ["linkText=Editar", "linkText"],
+        ["css=tr:nth-child(1) .btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Editar')]", "xpath:link"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "038fa5c5-bc56-400b-82cd-0de990c328e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "436db95b-82a9-40b1-bbda-adc0b09d9c2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.default_price",
+      "targets": [
+        ["id=form.default_price", "id"],
+        ["name=form.default_price", "name"],
+        ["css=#form\\.default_price", "css:finder"],
+        ["xpath=//input[@id='form.default_price']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "22"
+    }, {
+      "id": "c7e4fb1f-fc7b-44e8-9a28-f00d1f9026bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "476bc16c-c884-4df8-a9b0-32ea435cd819",
+      "comment": "",
+      "command": "type",
+      "target": "id=form.description",
+      "targets": [
+        ["id=form.description", "id"],
+        ["name=form.description", "name"],
+        ["css=#form\\.description", "css:finder"],
+        ["xpath=//textarea[@id='form.description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "antipulga para perro"
+    }, {
+      "id": "4d2c8a79-145c-4eb3-84c5-129c5e21747b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5711ef83-7a32-4e27-8115-29519d50ab79",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Medicamentos')]", "xpath:innerText"]
+      ],
+      "value": "Medicamentos"
+    }, {
+      "id": "bc9db4bd-283d-47c9-a25c-7a6f94ed031b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de95b16f-0851-4ca2-8c26-c980adf63fb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18763516-4d6a-4be3-9381-783f352ff9a7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "58ba3957-ac77-439a-a46e-ddaa2a2c4b22",
+    "name": "Eliminar_antiparasitosyantipulgas",
+    "commands": [{
+      "id": "3f2723d9-b0a0-44d6-ac40-a4a8cc970897",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.vetagile.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a904e14c-0329-4276-bade-4d54a2b02407",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "457cef97-cb8e-4adb-9440-7458faf1b0e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bfddb6-9681-4cdb-a54c-4d7c1f48b765",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "ludk17@gmail.com"
+    }, {
+      "id": "f116a7b1-bc89-4e51-8fa1-e2e3eb2c5eb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456qwerty"
+    }, {
+      "id": "3090df15-4968-4df6-9627-6e3f9fdc3cce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/section/div/div/div/div/div/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dafaf7c-f3c4-434c-9e24-e5259fe08312",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8d9ee5-83c0-42b0-8bce-86dfe4082dad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Veterinaria",
+      "targets": [
+        ["linkText=Veterinaria", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinaria')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/species']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Veterinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7f36a5-8b40-4203-882b-5ca30d88776d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Antiparasitarios y Antipulgas",
+      "targets": [
+        ["linkText=Antiparasitarios y Antipulgas", "linkText"],
+        ["css=.nav-second-level > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Antiparasitarios y Antipulgas')]", "xpath:link"],
+        ["xpath=//ul[@id='side-menu']/li/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://demo.vetagile.com/admin/medicines']", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Antiparasitarios y Antipulgas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7b86aa-7fe2-4e63-b1a1-e96911c4d9a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .fa",
+      "targets": [
+        ["css=tr:nth-child(1) .fa", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/div/table/tbody/tr/td[4]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a54fddb4-bd9e-4ef4-9241-f0fed6661536",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-white",
+      "targets": [
+        ["css=.modal-footer > .btn-white", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dca4c14-2050-4cf0-bd90-10f884c7adad",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2:nth-child(2)",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='admin-template']/div/div/div/div/section/h2", "xpath:idRelative"],
+        ["xpath=//section/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Medicamentos')]", "xpath:innerText"]
+      ],
+      "value": "Medicamentos"
+    }, {
+      "id": "2299ff93-6078-44b7-ac80-6df70ddb411e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-avatar",
+      "targets": [
+        ["css=.navbar-avatar", "css:finder"],
+        ["xpath=//li[@id='login-avatar']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba5b1352-949d-4bd3-80ed-8c12128aed55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//li[@id='login-avatar']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8cf8ac35-bd7d-416f-be4d-041f8a6b38f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["204aee56-6c2e-4dcf-be15-d620d57a1249"]
+  }],
+  "urls": ["http://demo.vetagile.com/login", "http://demo.vetagile.com/admin/species"],
+  "plugins": []
+}
